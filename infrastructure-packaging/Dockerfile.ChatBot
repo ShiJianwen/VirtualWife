@@ -22,6 +22,7 @@ RUN pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua
 ENV OPENAI_API_KEY=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
 ENV B_STATION_ID=1917954811
 ENV B_UID=9758616
+ENV B_COOKIE="i-wanna-go-back=-1; buvid4=853F12FF-039F-29FC-0279-48D3D32F4D3448279-022101700-INagrToN0VVbWVAxWcEW2g%3D%3D; CURRENT_BLACKGAP=0; buvid3=E605A9A0-134A-942C-1436-73CBBB9A8F8C46815infoc; b_nut=1711874946; b_ut=7; _uuid=D371B5E2-31F9-72E1-8A23-7210BC3E41ECC47165infoc; buvid_fp=710d4d2326cf87c5ab4199c25c00c219; enable_web_push=DISABLE; FEED_LIVE_VERSION=V_HEADER_LIVE_NO_POP; DedeUserID=9758616; DedeUserID__ckMd5=5df014bc581c2d24; rpdid=|(umR~Y)k)mu0J'u~uu)~RmY~; CURRENT_QUALITY=120; CURRENT_FNVAL=4048; header_theme_version=CLOSE; bmg_af_switch=1; bmg_src_def_domain=i2.hdslb.com; bili_jct=49c812b8ae6dd4404d02c0f2a94ccaa7; LIVE_BUVID=AUTO6317268530984935; b_lsid=A2A44F13_19214E3B8E2; sid=ouk4yniw; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjcxOTA3ODEsImlhdCI6MTcyNjkzMTUyMSwicGx0IjotMX0.mgxwhdSzEX1WI3oK916ivmiKAkWVeW36IMqpy3IBtJM; bili_ticket_expires=1727190721; home_feed_column=4; PVID=6; browser_resolution=1728-869"
 ENV TIMEZONE=Asia/Shanghai
 
 # 暴露应用程序监听的端口
